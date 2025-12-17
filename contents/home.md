@@ -10,7 +10,7 @@ I am Xia Qing, a Senior Engineer at the University Information Technology Center
 [AI 2025 Notion 资料](https://harvest-marigold-fcb.notion.site/AI-2025-2bfb2381a92380e4b479c3a8315bc1f2?pvs=143)
 
 #### 联系方式 | Contact  
-<code>xia@example.com</code>  
+<code>qingxia@hotmail.com</code>  
 
 #### 研究兴趣 | Research Interests  
 人工智能前沿技术、AI创新应用、创意教育、科技与教育融合
