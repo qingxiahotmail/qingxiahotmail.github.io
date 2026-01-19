@@ -1,0 +1,10 @@
+# Python标准库，无需额外安装
+# os
+# subprocess
+# json
+# sys
+# argparse
+
+# 可选依赖（用于扩展功能）
+# logging
+# pathlib

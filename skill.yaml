@@ -1,0 +1,27 @@
+name: github_gui_launcher
+version: 1.0.0
+description: 一个用于启动GitHub GUI客户端的工具
+author: trae.cn
+category: 开发工具
+inputs:
+  - name: github_path
+    type: string
+    required: false
+    default: ""
+    description: GitHub仓库路径
+  - name: client_type
+    type: string
+    required: false
+    default: "default"
+    description: GUI客户端类型
+outputs:
+  - name: status
+    type: string
+    description: 启动状态
+  - name: message
+    type: string
+    description: 详细信息
+requirements:
+  - os
+  - subprocess
+  - json

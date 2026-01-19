@@ -1,0 +1,55 @@
+{
+  "client_paths": {
+    "default": "",
+    "desktop": "",
+    "fork": ""
+  },
+  "system_defaults": {
+    "windows": {
+      "default": "C:\Program Files\GitHub Desktop\GitHubDesktop.exe",
+      "desktop": "C:\Program Files\GitHub Desktop\GitHubDesktop.exe",
+      "fork": "C:\Program Files\Fork\Fork.exe"
+    },
+    "macos": {
+      "default": "/Applications/GitHub Desktop.app/Contents/MacOS/GitHub Desktop",
+      "desktop": "/Applications/GitHub Desktop.app/Contents/MacOS/GitHub Desktop",
+      "fork": "/Applications/Fork.app/Contents/MacOS/Fork"
+    },
+    "linux": {
+      "default": "/usr/bin/github-desktop",
+      "desktop": "/usr/bin/github-desktop",
+      "fork": "/usr/bin/fork"
+    }
+  },
+  "settings": {
+    "auto_detect": true,
+    "log_level": "info",
+    "timeout": 30
+  },
+  "input_params": {
+    "github_path": {
+      "type": "string",
+      "description": "GitHub仓库路径",
+      "required": false,
+      "default": ""
+    },
+    "client_type": {
+      "type": "string",
+      "description": "GUI客户端类型",
+      "required": false,
+      "default": "default",
+      "options": ["default", "desktop", "fork"]
+    }
+  },
+  "installation_guide": {
+    "github_desktop": {
+      "windows": "https://desktop.github.com/download",
+      "macos": "https://desktop.github.com/download",
+      "linux": "https://github.com/shiftkey/desktop/releases"
+    },
+    "fork": {
+      "windows": "https://git-fork.com/download",
+      "macos": "https://git-fork.com/download"
+    }
+  }
+}
