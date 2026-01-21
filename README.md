@@ -31,9 +31,9 @@ GitHub GUI Launcher 是一个专为 Trae IDE 设计的技能项目，允许用�
 4. 按照 `TRAE_SETUP_GUIDE.md` 中的说明进行配置
 
 ### 方法二：通过 GitHub 克隆
-1. 克隆仓库：
+1. 克隆仓库（指定主分支）：
    ```
-   git clone https://github.com/qingxiahotmail/qingxiahotmail.github.io.git
+   git clone -b main https://github.com/qingxiahotmail/qingxiahotmail.github.io.git
    ```
 2. 进入项目目录：
    ```
