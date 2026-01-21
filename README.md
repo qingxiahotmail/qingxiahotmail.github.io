@@ -1,72 +1,68 @@
-![Github Forks](https://img.shields.io/github/forks/Yixin0313/personal-homepage-template?style=flat)
-![Github Stars](https://img.shields.io/github/stars/Yixin0313/personal-homepage-template?style=flat)
-![License](https://img.shields.io/github/license/Yixin0313/personal-homepage-template)
+# GitHub GUI Launcher 技能项目
 
-# 通用个人主页模板：适用于学术和求职场景 | A general-purpose template: suitable for both academic and professional use.
+## 项目简介
+GitHub GUI Launcher 是一个专为 Trae IDE 设计的技能项目，允许用户通过图形界面快速启动和管理 GitHub 仓库。
 
-## 预览 | Preview
-[![Screenshot of the Website](https://raw.githubusercontent.com/Yixin0313/personal-homepage-template/main/screenshot_full.png)](https://yixin0313.github.io/personal-homepage-template/)
+## 项目功能
+- 提供直观的图形界面来浏览和启动 GitHub 仓库
+- 支持本地仓库管理和远程仓库同步
+- 集成到 Trae IDE 的技能系统中，实现快速访问
+- 自动化部署和配置流程
 
-## 介绍 | Introduction
-
-这是一个**通用的个人主页模板**，基于 [Sen Li 的学术主页模板](https://github.com/senli1073/senli1073.github.io) 进行修改。  
-
-我新增了**工作经历板块**，使其更加适用于程序员和求职者。并且使用了中英文对照版本。
-
-This is a **general-purpose personal website template**, modified from [Sen Li's academic template](https://github.com/senli1073/senli1073.github.io).  
-
-I have added a **work experience section**, making it more practical for programmers and job seekers.
-
-Bilibili教程视频：【【2025最新保姆级教程】手把手教你用github制作个人主页（申学找工作必备）】https://www.bilibili.com/video/BV16nNMeFEzm?vd_source=79b688b1a191b9f9e8204aa1c3d0adab
-
-CSDN教程：https://blog.csdn.net/qq_45743991/article/details/145505150?spm=1001.2014.3001.5502
-
-## 快速开始 | Getting Start
-### 1. Fork 该仓库 | Fork this repository
-仓库名称应命名为 `<用户名>.github.io`，这样你的个人网站地址将是 `https://<用户名>.github.io/`。
-
-The repository name should be `<username>.github.io`, which will also be your website's URL.
-
-
-### 2.  编辑页面内容 | Edit page content
-(1) 进入你想存放项目的文件夹，并克隆新的仓库 | Go to the folder where you want to store your project, and clone the new repository:
+## 项目结构
 ```
-git clone https://github.com/<username>/<username>.github.io.git
-```
-项目的目录结构如下 | The directory structure is as follows:
-
-```.
 .
-├── contents
-└── static
-    ├── assets
-    │   └── img
-    ├── css
-    └── js
+├── README_trae.md          # Trae 技能使用说明
+├── TRAE_SETUP_GUIDE.md     # Trae 技能设置指南
+├── config.json             # 技能配置文件
+├── config_input.json       # 输入配置文件
+├── requirements.txt        # 依赖项列表
+├── skill.py                # 技能主脚本
+├── skill.yaml              # 技能定义文件
+└── qingxiahotmail.github.io/  # 个人主页模板（备用）
 ```
 
-(2) 修改各个板块的内容 | Modify the content of each section, which corresponds to `contents/*.md`.
+## 安装和使用
+### 方法一：直接添加到 Trae 设置
+1. 下载本仓库的完整文件：
+   - **直接下载 ZIP 文件**：[https://github.com/qingxiahotmail/qingxiahotmail.github.io/archive/refs/heads/master.zip](https://github.com/qingxiahotmail/qingxiahotmail.github.io/archive/refs/heads/master.zip)
+2. 将文件复制到 Trae 的技能目录中
+3. 在 Trae IDE 中启用该技能
+4. 按照 `TRAE_SETUP_GUIDE.md` 中的说明进行配置
 
-(3) 调整网站设置 | Adjust the title, copyright information, and other text of the website in `contents/config.yml`
+### 方法二：通过 GitHub 克隆
+1. 克隆仓库：
+   ```
+   git clone https://github.com/qingxiahotmail/qingxiahotmail.github.io.git
+   ```
+2. 进入项目目录：
+   ```
+   cd qingxiahotmail.github.io
+   ```
+3. 按照 `README_trae.md` 中的说明进行安装和配置
 
-(4) 替换图片 | Replace background image and photo with new ones for your web pages in `static/assets/img/`
+## 如何添加到 Trae 设置
+1. 打开 Trae IDE
+2. 进入设置页面
+3. 选择"技能"选项
+4. 点击"添加技能"
+5. 选择本项目的 `skill.yaml` 文件
+6. 点击"启用"按钮
+7. 按照提示完成配置
 
-(5) 提交更改 | Push it: 
-```
-git commit -am 'init'
-git push
-```
+## 技术栈
+- Python 3.x
+- Trae IDE 技能系统
+- GitHub API
+- 图形界面库
 
+## 许可证
+本项目基于 MIT 许可协议，你可以自由使用和修改。
 
-### 3. 访问你的网站 | Enjoy
+## 更新记录
+- 2026-01-21：项目初始化和发布
+- 2026-01-21：添加 Trae 技能设置指南
+- 2026-01-21：完善项目文档
 
-打开浏览器，访问 https://<用户名>.github.io，即可查看你的个人主页
-
-Fire up a browser and go to `https://<username>.github.io`
-
-
-
-## License
-本项目基于 MIT 许可协议，你可以自由使用和修改此模板。 Yixin Huang 2025年2月7号
-
-Copyright Yixin Huang, 2025. Licensed under an MIT license. You can copy and mess with this template.
+## 贡献
+欢迎提交问题和建议，帮助改进这个项目。
