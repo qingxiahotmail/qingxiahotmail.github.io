@@ -1,0 +1,19 @@
+{
+  "parameters": [
+    {
+      "name": "github_path",
+      "type": "string",
+      "description": "GitHub 仓库的本地路径或远程 URL",
+      "required": false,
+      "default": ""
+    },
+    {
+      "name": "client_type",
+      "type": "string",
+      "description": "GUI 客户端类型",
+      "required": false,
+      "default": "default",
+      "options": ["default", "desktop", "fork"]
+    }
+  ]
+}
